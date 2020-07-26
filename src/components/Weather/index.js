@@ -15,7 +15,7 @@ class Weather extends React.Component {
       }
     }
   };
-
+//마운트
   componentDidMount() {
     const { cityName } = this.props.match.params;
     console.log("cityName : ", cityName);
